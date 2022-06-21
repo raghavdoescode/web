@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div class="intro">
         <h2 style={{ color: "#eceff4", fontSize: "35px" }}>
-          Raghav (festiveelephantseal)
+          Raghav K.
         </h2>
       </div>
 
