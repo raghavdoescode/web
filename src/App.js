@@ -13,7 +13,6 @@ function App() {
       <div className="btns">
         <Button text="Github" url="https://github.com/raghavdoescode" />
         <Button text="Gitea" url="https://git.raghavk.xyz" />
-        <Button text="Discord Server" url="https://discord.gg/abVWJJH7AK" />
       </div>
 
       <div className="cards">
