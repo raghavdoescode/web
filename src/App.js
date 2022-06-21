@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./components/Card";
+import Button from "./components/Button";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="intro">
+        <h2 style={{ color: "#eceff4", fontSize: "35px" }}>
+          Raghav (festiveelephantseal)
+        </h2>
+      </div>
+
+      <div className="btns">
+        <Button text="Github" url="https://github.com/raghavdoescode" />
+        <Button text="Gitea" url="https://git.raghavk.xyz" />
+        <Button text="Discord Server" url="https://discord.gg/abVWJJH7AK" />
+      </div>
+
+      <div className="cards">
+        <Card
+          title="About me"
+          text={"💻 programming\n 🏎️ motorsports \n 📖 high school student"}
+          height={250}
+          width={400}
+        />
+      </div>
     </div>
   );
 }
